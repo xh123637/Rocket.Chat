@@ -1,7 +1,7 @@
 import { act, fireEvent, render, screen } from '@testing-library/react';
 
-import HoverCardPopover from './HoverCardPopover';
-import { useHoverCard } from './useHoverCard';
+import HoverCardPopover from './HoverCardPopover.js';
+import { useHoverCard } from './useHoverCard.js';
 
 const Harness = ({ keys }: { keys: string[] }) => {
 	const hoverCard = useHoverCard<string>();
