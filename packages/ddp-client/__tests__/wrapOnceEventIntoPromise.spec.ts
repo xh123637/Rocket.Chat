@@ -1,6 +1,6 @@
 import { Emitter } from '@rocket.chat/emitter';
 
-import { wrapOnceEventIntoPromise } from '../src/wrapOnceEventIntoPromise';
+import { wrapOnceEventIntoPromise } from '../src/wrapOnceEventIntoPromise.js';
 
 it('should resolve', async () => {
 	const emitter = new Emitter();
